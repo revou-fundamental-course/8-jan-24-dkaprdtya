@@ -45,12 +45,18 @@ button:active {
     transform: translateY(10px);
 }
 .luas {
-    position: relative;
-    float: right;
+    border: 1px solid black;
+    position: absolute;
+    margin: 2rem;
+    padding: 2rem 2rem;
     text-align: center;
-}
-.keliling {
     position: relative;
-    float: left;
-
+}
+br
+.keliling {
+    position: absolute;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem 2rem;
 }

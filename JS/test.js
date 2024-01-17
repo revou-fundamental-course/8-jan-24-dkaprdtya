@@ -1,3 +1,11 @@
-const usia = 20;
-console.log("Hello Usia Kamu Adalah " + usia);
-alert("Hello World")
+const inputField = document.getElementById("squareSide")
+const countButton = document.getElementById("countButton")
+
+inputField.addEventListener('input', function() {
+    const inputValue = inputField.ariaValueMax.trim()
+    if(validateInput(inputValue)) {
+        countButton.disabled = false
+    } else {
+         countButton.disabled = true
+         }
+})
