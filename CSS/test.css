@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: #00ffff;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#side{
+    margin-top: 10px;
+    outline: none;
+    border-radius: 7px;
+    border: solid #48e6e6  ;
+    padding: 10px;
+}
+
+#side:focus {
+    border: solid #021313 ;
+}
+
+button {
+    background-color: rgb(75, 137, 224);
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(20, 44, 219);
+}
+
+button:active {
+    border-color: rgb(18, 15, 190);
+    transform: translateY(10px);
+}
+.luas {
+    position: relative;
+    float: right;
+    text-align: center;
+}
+.keliling {
+    position: relative;
+    float: left;
+
+}
