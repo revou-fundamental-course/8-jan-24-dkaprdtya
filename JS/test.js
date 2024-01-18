@@ -5,7 +5,6 @@ side = parseInt(document.getElementById("first").value);
 area = side*side; //Equation for Area of a square
 document.getElementById("num").innerHTML="Luas Persegi adalah : "+area;
 }
-
 function keliling( )
 {
 var sisi,perimeter;
