@@ -6,7 +6,7 @@ header {
 }
 
 h1 {
-    background-color: #00ffff;
+    background-color: #01a6ff;
 }
 
 .input {
@@ -28,35 +28,36 @@ h1 {
 }
 
 button {
-    background-color: rgb(75, 137, 224);
-    color: black;
+    background-color: rgb(10, 190, 255);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 7px;
     padding: 10px 15px;
     cursor: pointer;
 }
-
 button:hover {
-    background-color: rgb(20, 44, 219);
+    background-color: rgb(24, 156, 233);
 }
-
 button:active {
-    border-color: rgb(18, 15, 190);
+    border-color: rgb(14, 154, 241);
     transform: translateY(10px);
 }
-.luas {
-    border: 1px solid black;
+  .Luas {
     position: absolute;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
     margin: 2rem;
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
     text-align: center;
-    position: relative;
-}
-br
-.keliling {
-    position: absolute;
+    
+  }
+  .Keliling {
+    float: right;
     border: 1px solid black;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 2rem;
-    padding: 2rem 2rem;
-}
+    padding: 3rem 3rem;
+    text-align: center;
+  }
