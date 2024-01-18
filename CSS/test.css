@@ -39,7 +39,7 @@ button:hover {
     background-color: rgb(24, 156, 233);
 }
 button:active {
-    border-color: rgb(14, 154, 241);
+    border-color: rgb(23, 156, 238);
     transform: translateY(10px);
 }
   .Luas {
