@@ -3,10 +3,10 @@ body {
 }
 header {
     text-align: center;
-}
-
-h1 {
-    background-color: #01a6ff;
+    background-color: #ff0000;
+    max-width:100%;
+    margin-top: 0px auto;
+    border-radius: 5px;
 }
 
 .input {
@@ -28,37 +28,61 @@ h1 {
 }
 
 button {
-    background-color: rgb(10, 190, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(226, 21, 21);
+    color: black;
     border: none;
     border-radius: 7px;
     padding: 10px 15px;
     cursor: pointer;
 }
+
 button:hover {
-    background-color: rgb(24, 156, 233);
+    background-color: hwb(0 0% 7%);
+    color: rgb(0, 0, 0);
 }
+
 button:active {
-    border-color: rgb(23, 156, 238);
-    transform: translateY(10px);
+    border-color: #1be1de;
+    transform: translateY(2px);
 }
-  .Luas {
-    position: absolute;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-    padding: 3rem 3rem;
+
+img {
+    height: 150px;
+    width: 150px ;
+    margin: 0 auto;
+    align-items: center;
     text-align: center;
-    
-  }
-  .Keliling {
+
+}
+
+.L-Grid{
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 29%;
+    border: 1px solid black;
+    outline-offset: 5px;
+    padding-inline: 15px;
+}
+
+
+.K-Grid{
     float: right;
-    border: 1px solid black;
     display: flex;
-    justify-content: center;
-    margin: 2rem;
-    padding: 3rem 3rem;
-    text-align: center;
-  }
-  
+    justify-content: space-around;
+    margin-right: 35%;
+    border: 1px solid black;
+    outline-offset: 5px;
+}
+
+.judul-luas{
+    background-color: #E6E6E6;
+    outline-offset: 5px;
+    border-radius: 5px;
+}
+
+
+.judul-keliling{
+    background-color: #E6E6E6;
+    border-radius: 5px;
+}
